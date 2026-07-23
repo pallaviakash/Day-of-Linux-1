@@ -18,9 +18,9 @@
    19  cat auth.log | grep failed
    20  cd ..
    21  cd tmp/
-   22  mkdir rakesh
+   22  mkdir pallavi
    23  ls
-   24  cd rakesh/
+   24  cd pallavi/
    25  ls
    26  touch file
    27  ls
