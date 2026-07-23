@@ -1,0 +1,56 @@
+ 1  cd /var/log/
+    2  ls
+    3  cat auth.log 
+    4  more auth.log 
+    5  head -10 auth.log 
+    6  tail -10 auth.log 
+    7  cat auth.log | grep failed
+    8  cat auth.log | grep error
+    9  cat auth.log | grep warning
+   10  cat auth.log | grep invalid
+   11  pwd
+   12  top
+   13  htop
+   14  vmstat 1
+   15  df -h
+   16  sudo apt install smartmontools
+   17  df -h
+   18  sudo smartctl -a /dev/sda13
+   19  sudo apt install smartmontools
+   20  ls -l
+   21  cd /tmp/
+   22  ls
+   23  touch 123
+   24  ls
+   25  ls -l
+   26  chmod +x 123
+   27  ls
+   28  ls -l
+   29  chmod 777  123
+   30  ls
+   31  ls -l
+   32  chmod 555  123
+   33  ls -l
+   34  apt-get update
+   35  apt install nginx
+   36  systemctl status nginx
+   37  systemctl stop nginx
+   38  systemctl status nginx
+   39  systemctl start nginx
+   40  systemctl status nginx
+   41  apt install jenkins
+   42  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+   43  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   44  apt install jenkins
+   45  dmesg | tail
+   46  cat /var/log/syslog 
+   47  ps -aef 
+   48  ps -aef | grep nginx
+   49  systemctl status nginx
+   50  ps -aef | grep nginx
+   51  lshw
+   52  lsblk
+   53  free -m
+   54  df -h
+   55  dmesg
+   56  history
